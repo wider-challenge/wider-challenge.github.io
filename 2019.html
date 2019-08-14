@@ -238,11 +238,224 @@
             </div>
         </section>
 
-        <!-- Papers Section -->
-        <section class="page-section bg-primary text-white mb-0" id="papers">
+        <!-- Leaderboard  Section -->
+        <section class="page-section bg-primary text-white mb-0" id="winner">
             <div class="container">
-                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Call for Papers</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white">Leaderboard</h2>
+                <!-- Icon Divider -->
                 <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <h3 class="text-center text-secondary">Face Detection</h3>
+                <div class="tab-pane fade show active" id="face-winner" role="tabpanel" aria-labelledby="face-tab">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Rank</th>
+                                <th scope="col">Score</th>
+                                <th scope="col">Team Name</th>
+                                <th scope="col">Affiliation</th>
+                                <th scope="col">Team Leader</th>
+                                <th scope="col">Team Members</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>0.5713</td>
+                                <td>BAIDU VIS</td>
+                                <td>BaiDu; </br> North China Electric Power University; </br> Institute of Automation, CAS</td>
+                                <td>Yang Liu</td>
+                                <td>Yang Liu, Xu Tang, Zhihang Li, Bin He, Bi Li, </br> Kangkang Wang, Ran He, Xin Ai, Jingtuo Liu, </br> Junyu Han</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>0.5666</td>
+                                <td>InsightFace</td>
+                                <td>InfiniVision</td>
+                                <td>Jia Guo</td>
+                                <td>Jia Guo, Jiankang Deng, Yi Jiang</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>0.5634</td>
+                                <td>CASFD</td>
+                                <td>University of Science and Technology of China; </br> iFLYTEK</td>
+                                <td>Pengfei Luo</td>
+                                <td>Pengfei Luo, Yuxin Gu, Changfeng Xi, Ziyang Wu</td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                </div>
+                </br></br>
+
+                <h3 class="text-center text-secondary">Pedestrian Detection</h3>
+                <div class="tab-pane fade show active" id="pedestrian-winner" role="tabpanel" aria-labelledby="pedestrian-tab">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Rank</th>
+                                <th scope="col">Score</th>
+                                <th scope="col">Team Name</th>
+                                <th scope="col">Affiliation</th>
+                                <th scope="col">Team Leader</th>
+                                <th scope="col">Team Members</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>0.6725</td>
+                                <td>R4D</td>
+                                <td>Megiiv; </br> Peking University; </br> Beijing University of Posts and </br> Telecommunications</td>
+                                <td>Ze Chen</td>
+                                <td>Ze Chen, Chu Li, Yan Chen, Zhiyuan Li, </br> Hongkai Zhang, Boxun Li, Zhicheng Wang, </br> Gang Yu</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>0.6569</td>
+                                <td>IIAI_VOS</td>
+                                <td>Inception Institute of Articial Intelligence</td>
+                                <td>Hongsong Wang</td>
+                                <td>Hongsong Wang, Jinpeng Li, Haibo Jin, </br> Shengcai Liao, Ling Shao</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>0.6362</td>
+                                <td>Z</td>
+                                <td>Sun Yat-sen University</td>
+                                <td>Haien Zeng</td>
+                                <td>Haien Zeng, Yiran Ding, Wentao Zhang, </br> Xun Liu, Pai Peng</td>
+                            </tr>
+                        </tbody>
+                    </table>                          
+                </div>
+                </br></br>
+
+                <h3 class="text-center text-secondary">Cast Search by Portrait</h3>
+                <div class="tab-pane fade show active" id="reid-winner" role="tabpanel" aria-labelledby="reid-tab">
+                    <table class="table">
+                     <thead class="thead-dark">
+                         <tr>
+                             <th scope="col">Rank</th>
+                             <th scope="col">Score</th>
+                             <th scope="col">Team Name</th>
+                             <th scope="col">Affiliation</th>
+                             <th scope="col">Team Leader</th>
+                             <th scope="col">Team Members</th>
+                         </tr>
+                     </thead>
+                     <tbody>
+                         <tr>
+                             <th scope="row">1</th>
+                             <td>0.8730</td>
+                             <td>MCC_USTC</td>
+                             <td>University of Science and Technology of China; </br> iFLYTEK</td>
+                             <td>Xingze Li</td>
+                             <td>Xingze Li, Qiaokang Xie, Ziyang Wu, Lei Lu, </br> Wengang Zhou</td>
+                         </tr>
+                         <tr>
+                             <th scope="row">2</th>
+                             <td>0.8515</td>
+                             <td>VIPL_ICT</td>
+                             <td>Institute of Computing Technology, CAS; </br> University of Chinese Academy of Sciences</td>
+                             <td>Ruiping Wang</td>
+                             <td>Ruiping Wang, Ruikui Wang, Xiaodong Wu, </br> Ziyi Bai, Shiguang Shan,Xilin Chen</td>
+                         </tr>
+                         <tr>
+                             <th scope="row">3</th>
+                             <td>0.8137</td>
+                             <td>IIS_CVL</td>
+                             <td>Institute of Information Science, </br> Academia Sinica; </br> National Taiwan University</td>
+                             <td>Bing-Jhang Lin</td>
+                             <td>Bing-Jhang Lin, Bing-Yuan Zeng, Jhih-Ciang Wu, </br>  Tyng-Luh Liu, Li-Chen Fu, Chiou-Shann Fuh</td>
+                         </tr>
+                     </tbody>
+                     </table>                            
+                 </div>
+                 </br></br>
+
+                <h3 class="text-center text-secondary">Person Search by Language</h3>
+                <div class="tab-pane fade show active" id="reid-winner" role="tabpanel" aria-labelledby="reid-tab">
+                    <table class="table">
+                     <thead class="thead-dark">
+                         <tr>
+                             <th scope="col">Rank</th>
+                             <th scope="col">Score</th>
+                             <th scope="col">Team Name</th>
+                             <th scope="col">Affiliation</th>
+                             <th scope="col">Team Leader</th>
+                             <th scope="col">Team Members</th>
+                         </tr>
+                     </thead>
+                     <tbody>
+                         <tr>
+                             <th scope="row">1</th>
+                             <td>0.2307</td>
+                             <td>Plan-Six</td>
+                             <td>Institute of Automation, CAS</td>
+                             <td>Kai Niu</td>
+                             <td>Kai Niu, Yan Huang, Da Li, Liang Wang</td>
+                         </tr>
+                         <tr>
+                             <th scope="row">2</th>
+                             <td>0.1314</td>
+                             <td>VIPL_ICT</td>
+                             <td>Zhejiang University</td>
+                             <td>Kuncai Zhang</td>
+                             <td>Kuncai Zhang, Xuemei Yi</td>
+                         </tr>
+                         <tr>
+                             <th scope="row">3</th>
+                             <td>0.1275</td>
+                             <td>IIS_CVL</td>
+                             <td>Texas A&M University; </br> Walmart Technology</td>
+                             <td>Xiaojing Yu</td>
+                             <td>Xiaojing Yu, Tianlong Chen, Yang Yang, </br> Michael Mugo</td>
+                         </tr>
+                     </tbody>
+                     </table>                            
+                 </div>
+                 </br></br>
+
+                 <h3 class="text-center text-secondary">Champion of Special Track: Face Detection Runtime</h3>
+                <div class="tab-pane fade show active" id="reid-winner" role="tabpanel" aria-labelledby="reid-tab">
+                    <table class="table">
+                     <thead class="thead-dark">
+                         <tr>
+                             <th scope="col">Rank</th>
+                             <th scope="col">Score</th>
+                             <th scope="col">Team Name</th>
+                             <th scope="col">Affiliation</th>
+                             <th scope="col">Team Leader</th>
+                             <th scope="col">Team Members</th>
+                         </tr>
+                     </thead>
+                     <tbody>
+                         <tr>
+                             <th scope="row">1</th>
+                             <td>0.2792</td>
+                             <td>WeFace</td>
+                             <td>WeBank</td>
+                             <td>Xiaojun Zhang</td>
+                             <td>Xiaojun Zhang, Yuchong Gu, Zhenwen Zhu</td>
+                         </tr>
+                     </tbody>
+                     </table>                            
+                 </div>
+
+            </div>
+        </section>
+
+        <!-- Papers Section -->
+        <section class="page-section" id="papers">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-secondary">Call for Papers</h2>
+                <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon">
                     <i class="fas fa-star"></i>
@@ -287,10 +500,10 @@
         </section>
         
         <!-- Important Dates  Section -->
-        <section class="page-section" id="dates">
+        <section class="page-section bg-primary text-white mb-0" id="dates">
             <div class="container">
-                <h2 class="page-section-heading text-center text-uppercase text-secondary">Important Dates</h2>
-                <div class="divider-custom">
+                <h2 class="page-section-heading text-center text-uppercase  text-white mb-0">Important Dates</h2>
+                <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon">
                     <i class="fas fa-star"></i>
@@ -306,13 +519,13 @@
                     <div class="col">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link active p-3 mb-2 bg-dark text-white" id="challenge-tab" data-toggle="tab" 
+                                <a class="nav-link p-3 mb-2 bg-dark text-white" id="challenge-tab" data-toggle="tab" 
                                     href="#challenge" role="challenge" aria-controls="home" aria-selected="true">
                                     Challenge
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link p-3 mb-2 bg-dark text-white" id="workshop-tab" data-toggle="tab" 
+                                <a class="nav-link active p-3 mb-2 bg-dark text-white" id="workshop-tab" data-toggle="tab" 
                                     href="#workshop" role="tab" aria-controls="workshop" aria-selected="false">
                                     Workshop
                                 </a>
@@ -409,10 +622,10 @@
         </section> 
 
         <!-- Speakers Section -->
-        <section  class="page-section bg-primary text-white mb-0" id="speakers">
+        <section  class="page-section" id="speakers">
             <div class="container">
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Invited Speakers</h2>
-                <div class="divider-custom divider-light">
+                <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon">
                     <i class="fas fa-star"></i>
@@ -457,10 +670,10 @@
         </section>
         
         <!-- Organizers Section -->
-        <section class="page-section" id="organizers">
+        <section class="page-section bg-primary text-white mb-0" id="organizers">
             <div class="container">
-                <h2 class="page-section-heading text-center text-uppercase text-secondary">Organizers</h2>
-                <div class="divider-custom">
+                <h2 class="page-section-heading text-center text-uppercase text-white">Organizers</h2>
+                <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon">
                     <i class="fas fa-star"></i>
@@ -678,10 +891,10 @@
         
         
         <!-- Sponsors Section -->
-        <section class="page-section bg-primary text-white mb-0" id="sponsors">
+        <section class="page-section" id="sponsors">
             <div class="container">
-                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Sponsors</h2>
-                <div class="divider-custom divider-light">
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Sponsors</h2>
+                <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon">
                     <i class="fas fa-star"></i>
